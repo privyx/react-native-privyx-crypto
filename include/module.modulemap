@@ -1,0 +1,4 @@
+module PrivyxCryptoFFI {
+    header "libprivyx_crypto.h"
+    export *
+}

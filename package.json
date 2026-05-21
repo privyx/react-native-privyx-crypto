@@ -1,0 +1,23 @@
+{
+  "name": "react-native-privyx-crypto",
+  "version": "0.1.0",
+  "description": "Post-quantum hybrid cryptography for React Native (X25519 + ML-KEM-768 + AES-256-GCM)",
+  "main": "src/index.tsx",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["react-native", "cryptography", "post-quantum", "ml-kem", "x25519", "aes-gcm"],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "PrivyxCryptoSpec",
+    "type": "modules",
+    "jsSrcsDir": "src",
+    "android": {
+      "javaPackageName": "com.privyx.crypto"
+    }
+  }
+}
